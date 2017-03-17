@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <title class=Title>SoundMandala</title>
+  
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,900' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script> <!-- JQuery color library -->
+  <script type="text/javascript" src="../js/script.js"></script>
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  <link href="../css/visualStyle-shiftedDown.css" rel="stylesheet" type="text/css" />
+  <script src="../js/p5.js"></script>
+  <script src="../js/p5.sound.js"></script>
+
+  <script language="javascript" type="text/javascript" src="soundMandala/beatDetector.js"></script>
+  <script language="javascript" type="text/javascript" src="soundMandala/soundMandala.js"></script>
+  <script language="javascript" type="text/javascript" src="soundMandala/colorSchemes.js"></script>
+  <script language="javascript" type="text/javascript" src="soundMandala/patternGenerator.js"></script>
+  <script language="javascript" type="text/javascript" src="soundMandala/beatEffector.JS"></script>
+
+ 
+
+</head>
+
+<body>
+<canvas id="processing-canvas"> </canvas>
+    <div id="headBox">
+      <img id="titleImage" src="../img/Title5.png" />
+      <div id="header">
+      <h2 id="pageTitle">Audio Mandala</h2>
+        <h3 id="links"> 
+           <a class="navigator" id="instructions">About
+            <div id="instructionText"></P></P>
+            
+            </P> use the mouse at any time to take control and draw
+            </P> F - fullscreen
+            </P> E - change draw mode (music-driven, random, smooth, manual)
+            </P> C - change color scheme
+            </P> R - toggle reflection/rotation mode
+            </P> L - toggle line number
+            </P> Space - turn on/off beat-triggered effects
+            </P> B - trigger a random effect
+            </P> P - trigger pause effect
+            </P> S - trigger slow zoom effect
+            </P> O - trigger circle effect
+            </P> Z - trigger Quick Zoom effect
+            </P> X - clear background
+            </P> Q/W - decrease/increase line width
+            </P> Music is by me and my friend Aaon Clark
+            </div>
+          </a>
+          <a class="navigator" href="../GamesAndVisuals.html">Back</a>
+        </h3>
+      </div>
+    </div>
+ 
+<div id="p5canvas"></div>
+
+</div>     
+  </body>
+</html>
